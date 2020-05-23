@@ -1,0 +1,97 @@
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+} 
+@media (max-width: 380px) {
+     .showcase {
+      padding-top: 15px !important;
+    }
+   .media-button.btn-large{
+      padding: 1, 04px !important;
+
+    }
+    .big-text{
+      font-size: 3rem !important;
+      font-weight: 200px;
+    }
+}
+
+.user-view.background{
+  overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-header {
+  background: url(../img/white-and-blue-high-rise-buildings-4449623.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+
+.inf {
+  color: rgb(39, 37, 37);
+}
+
+.darkimg {
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../img/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg) center/cover no-repeat fixed;
+}
